@@ -1,6 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Rider Gallery</title>
+  <title>Rider Gallery | EURO CROWN LOGISTICS LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body{
@@ -8,6 +11,29 @@
       font-family:Arial,sans-serif;
       background:#0b0b1f;
       color:#fff;
+    }
+
+    header{
+      padding:22px 16px;
+      text-align:center;
+      background:linear-gradient(135deg,#5a2d82,#c9a24d);
+    }
+
+    nav{
+      margin-top:14px;
+    }
+
+    nav a{
+      color:#fff;
+      text-decoration:none;
+      margin:0 10px;
+      font-weight:800;
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:auto;
+      padding:40px 18px;
     }
 
     .grid{
@@ -37,60 +63,96 @@
     .muted{
       opacity:0.85;
     }
+
+    footer{
+      text-align:center;
+      padding:18px;
+      background:#090918;
+      opacity:0.9;
+      margin-top:30px;
+    }
   </style>
 </head>
+
 <body>
 
-<h2>Rider Gallery / მძღოლების გალერეა</h2>
+<header>
+  <div style="display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;">
+    <img src="logo.png" alt="EURO CROWN LOGISTICS" style="height:64px;border-radius:10px;box-shadow:0 10px 25px rgba(0,0,0,0.25);">
+    <div>
+      <div style="font-size:12px;font-weight:900;letter-spacing:1px;">EURO CROWN LOGISTICS LLC</div>
+      <div style="font-size:24px;font-weight:900;">Premium Fleet & Logistics Partner</div>
+      <div style="opacity:0.92;">პრემიუმ ფლოტისა და ლოჯისტიკის პარტნიორი</div>
+      <div style="margin-top:6px;font-size:11px;color:#ffe7b0;font-weight:800;line-height:1.35;">
+        Company ID: 400455413<br>
+        Ministry of Justice of Georgia<br>
+        LEPL National Agency of Public Registry
+      </div>
+    </div>
+  </div>
 
-<div class="grid">
-  <!-- your cards here -->
+  <nav>
+    <a href="/index.html">Home / მთავარი</a>
+    <a href="/vision.html">Goals & Vision / მიზნები</a>
+    <a href="/team.html">Leadership / ლიდერობა</a>
+    <a href="/services.html">Services / სერვისები</a>
+    <a href="/partners.html">Platforms / პლატფორმები</a>
+    <a href="/gallery.html">Rider Gallery / გალერეა</a>
+    <a href="/contact.html">Contact / კონტაქტი</a>
+  </nav>
+</header>
+
+<div class="wrap">
+  <h2>Rider Gallery / მძღოლების გალერეა</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="riders/rider1.jpg" alt="Rider 1">
+      <div class="cap">
+        <b>Delivery Operations</b>
+        <div class="muted">მიწოდების ოპერაციები</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="riders/rider2.jpg" alt="Rider 2">
+      <div class="cap">
+        <b>Fleet Support</b>
+        <div class="muted">ფლოტის მხარდაჭერა</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="riders/rider3.jpg" alt="Rider 3">
+      <div class="cap">
+        <b>Platform Operations</b>
+        <div class="muted">პლატფორმის ოპერაციები</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="riders/rider4.jpg" alt="Rider 4">
+      <div class="cap">
+        <b>Courier Services</b>
+        <div class="muted">კურიერის სერვისები</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="riders/rider5.jpg" alt="Rider 5">
+      <div class="cap">
+        <b>Taxi & Transport</b>
+        <div class="muted">ტაქსი და ტრანსპორტი</div>
+      </div>
+    </div>
+
+  </div>
 </div>
+
+<footer>
+  © EURO CROWN LOGISTICS LLC — Rider Gallery
+</footer>
 
 </body>
-
-<h2>Rider Gallery / მძღოლების გალერეა</h2>
-
-<div class="grid">
-
-  <div class="card">
-    <img src="riders/rider1.jpg" alt="Rider 1">
-    <div class="cap">
-      <b>Delivery Operations</b>
-      <div class="muted">მიწოდების ოპერაციები</div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="riders/rider2.jpg" alt="Rider 2">
-    <div class="cap">
-      <b>Fleet Support</b>
-      <div class="muted">ფლოტის მხარდაჭერა</div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="riders/rider3.jpg" alt="Rider 3">
-    <div class="cap">
-      <b>Platform Operations</b>
-      <div class="muted">პლატფორმის ოპერაციები</div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="riders/rider4.jpg" alt="Rider 4">
-    <div class="cap">
-      <b>Courier Services</b>
-      <div class="muted">კურიერის სერვისები</div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="riders/rider5.jpg" alt="Rider 5">
-    <div class="cap">
-      <b>Taxi & Transport</b>
-      <div class="muted">ტაქსი და ტრანსპორტი</div>
-    </div>
-  </div>
-
-</div>
+</html>
